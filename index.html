@@ -32,6 +32,9 @@
     <!--main style sheet-->
     <link rel="stylesheet" href="style.css">
     <title>The-Stitch-Universe</title>
+
+    <!-- favivon -->
+    <link rel="icon" href="images/logo/only_world.png">
 </head>
 
 <body>
@@ -74,8 +77,8 @@
                     </p>
                 </div>
                 <div class="col-4">
-                    <button id="signin" class="btn btn-sm btn-info">login</button>
-                    <button id="signup" class="btn btn-sm btn-secondary">Sign-up</button>
+                    <button id="signin" class="btn btn-sm btn-info signin">login</button>
+                    <button id="signup" class="btn btn-sm btn-secondary signup">Sign-up</button>
                 </div>
             </div>
         </div>
@@ -84,7 +87,9 @@
         <!--nav bar-->
         <div class="_navbar sticky-top">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand logo" href="#">The Stitch Universe</a>
+                <a class="navbar-brand logo" href="#">
+                    <img src="images/logo/the_stitch_universe_logo2.png" alt="" height="90" width="100">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -131,9 +136,9 @@
                             <p>Digitizing is the process of converting artwork into a digital file using a software that allows embroidery machines to understand the needle’s path. This process is not automated and in fact, great digitizing is considered
                                 an artform if done correctly. Most embroidery machines have software of their own allowing us to control their functions while reading instructions from a file that has been digitized.
                             </p>
-
-                            <a class="btn  btn-dark text-white font-weight-bold float-right mb-5 mt-auto" href="#pricing">See Pricing</a>
-
+                            <div class="p-4">
+                                <a class="btn  btn-dark text-white font-weight-bold float-right mb-5 mt-auto" href="#pricing">See Pricing</a>
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -142,8 +147,8 @@
                             <h1>Screen Print</h1>
                             <h3>What Is Screen Printing ?</h3>
                             <p>Screen artwork is art that's made up of Screen graphics. These graphics are points, lines, curves and shapes that are based on mathematical formulas. When you scale a Screen image file, it isn't low resolution and there's no
-                                loss of quality, so it can be sized to however large or small you need it to be.</p>
-                            <a class="btn  btn-dark text-white font-weight-bold float-right mb-5 mt-auto" href="#pricing">See Pricing</a>
+                                loss of quality</p>
+                            <div class="p-4"><a class="btn  btn-dark text-white font-weight-bold float-right mb-5 mt-auto" href="#pricing">See Pricing</a></div>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -153,7 +158,7 @@
                             <h3>What Is Patches Digitizing ?</h3>
                             <p>Patch Digitizing is the same as all the other similar digitizing services, but have a slight difference. Making patches on a product involves hard work and dedication of an expert of the field. We make sure that there are no
                                 thread breaks in your machine when you sew with our digitized file.</p>
-                            <a class="btn  btn-dark text-white font-weight-bold float-right mb-5 mt-auto" href="#pricing">See Pricing</a>
+                            <div class="p-4"><a class="btn  btn-dark text-white font-weight-bold float-right mb-5 mt-auto" href="#pricing">See Pricing</a></div>
                         </div>
                     </div>
                     <!-- <div class="swiper-slide">
@@ -221,9 +226,9 @@
                                         <div class="service-icon">
                                             <i class="fa fa-paint-brush"></i>
                                         </div>
-                                        <div class="service-title">VECTOR ART</div>
+                                        <div class="service-title">Screen Printing</div>
                                         <div class="service-desc">
-                                            We Change Your Design In Real life Vector graphic
+                                            We Change Your Design In Real life Screen Print
                                         </div>
                                     </div>
 
@@ -239,7 +244,7 @@
                                 </div>
                             </div>
                         </div>
-                        <br><br>
+                        <br><br><br>
                     </div>
                 </div>
                 <div class="col-12">
@@ -251,7 +256,7 @@
                             by getting in touch with us, you would get nothing but the best! Our service features.</p>
                     </div>
                 </div>
-                <br>
+
                 <div class="col-12">
                     <div class="abt_text">
                         <h1>HOW WE DO IT</h1>
@@ -261,6 +266,7 @@
                             design is then handed over to our professional digitizer to make the artwork. It is then submitted to the quality check department where they check for any major or minor issue.</p>
                     </div>
                 </div>
+
                 <div class="col-12">
                     <div class="our_work">
                         <h1>OUR WORK</h1>
@@ -271,6 +277,7 @@
                         </p>
                     </div>
                 </div>
+                <br><br>
             </div>
         </div>
         </div>
@@ -354,7 +361,7 @@
                                 </h5>
                             </div>
                             <div id="collapse3" class="panel-collapse collapse">
-                                <div class="panel-body">We are expert in logo and small letter digitising. Left chest logo digitizing on your staff uniform is a great way of advertising and distinguishing your brand. If you are retail shop, clothing brand, a coffee shop, a bakery
+                                <div class="panel-body">We are expert in logo and small letter digitizing. Left chest logo digitizing on your staff uniform is a great way of advertising and distinguishing your brand. If you are retail shop, clothing brand, a coffee shop, a bakery
                                     or a pharmacy chain, you must ensure every worker gets a logo digitized and embroidered on their uniform.</div>
                             </div>
                         </div>
@@ -843,13 +850,13 @@
 
                         <ul class="list-unstyled">
                             <li>
-                                <a href="#!">User Guide</a>
+                                <a href="protection/User Guide.pdf" download="userguide">User Guide</a>
                             </li>
                             <li>
-                                <a href="#!">My account</a>
+                                <a href="#!" class="signup">My account</a>
                             </li>
                             <li>
-                                <a href="#!">login</a>
+                                <a href="#!" class="signin">login</a>
                             </li>
                             <li>
                                 <a href="#payment">Payment Option</a>
@@ -904,10 +911,10 @@
                                 <a href="#tab">Designs</a>
                             </li>
                             <li>
-                                <a href="#!">Privacy policy</a>
+                                <a href="protection/Privacy Policy.pdf" target="_blank" download="the-stitch-universe Privacy policy">Privacy policy</a>
                             </li>
                             <li>
-                                <a href="#!">Term's & Conditions</a>
+                                <a href="protection/Acceptance of Terms.pdf" target="_blank" download="The-Stitch-Universe Terms and Conditions">Term's & Conditions</a>
                             </li>
                         </ul>
 
@@ -1053,11 +1060,11 @@
     </script>
     <script>
         $(document).ready(function() {
-            $("#signin").click(function() {
+            $(".signin").click(function() {
                 alert("Upgrade is in progress");
 
             });
-            $("#signup").click(function() {
+            $(".signup").click(function() {
                 alert("Upgrade is in progress");
 
             });

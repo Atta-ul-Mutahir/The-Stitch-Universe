@@ -143,7 +143,7 @@ p {
 /* navbar */
 
 ._navbar {
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.855);
 }
 
 ._navbar a {
@@ -152,8 +152,8 @@ p {
 }
 
 ._navbar li:hover {
-    /* transition: cubic-bezier(1, 0, 0, 1);
-    border-bottom: 1px solid #c8c0d3;
+    transition: ease-in 1s !important;
+    /* border-bottom: 1px solid #c8c0d3;
     border-top: 1px solid #c8c0d3; */
     font-weight: bolder;
 }
@@ -259,6 +259,7 @@ p {
 .our_work {
     width: 75%;
     margin: 0 auto;
+    line-height: 50px;
 }
 
 
@@ -409,8 +410,8 @@ p {
 /* testimonial start */
 
 .container {
-    margin-top: 50px;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .counter-box {
