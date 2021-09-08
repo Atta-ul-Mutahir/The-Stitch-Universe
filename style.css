@@ -108,14 +108,14 @@ p {
     text-align: center;
     width: 100%;
     padding: 10px;
-    background-color: #0E050F;
-    color: #9388A2;
-    /* border: 1px solid black; */
+    background-color: #000;
+    color: #d6cde4;
+    border: 1px solid black;
 }
 
 ._topbar a {
     text-decoration: none;
-    color: #9388A2;
+    color: #d6cde4;
 }
 
 ._topbar a i:hover {
@@ -127,12 +127,13 @@ p {
 ._topbar i {
     padding: 5px;
     font-size: x-large;
-    color: #9388A2;
+    color: #dcd8e2;
 }
 
 ._topbar button {
-    color: #9388A2;
-    background-color: #341948;
+    color: #000;
+    background-color: #fff;
+    font-weight: bold;
     border: none;
 }
 
@@ -143,7 +144,7 @@ p {
 /* navbar */
 
 ._navbar {
-    background-color: rgba(0, 0, 0, 0.855);
+    background-color: rgba(0, 0, 0, 0.99);
 }
 
 ._navbar a {
@@ -178,7 +179,7 @@ p {
 /* slider  */
 
 .slider {
-    height: 565px;
+    height: auto;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
@@ -217,7 +218,6 @@ p {
 
 .slider-content p {
     width: 100%;
-    height: 300px;
     white-space: pre-line;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -243,7 +243,6 @@ p {
 
 #about {
     height: auto;
-    width: 95%;
     text-align: center;
 }
 
@@ -257,9 +256,7 @@ p {
 .abt_subtitle,
 .abt_text,
 .our_work {
-    width: 75%;
-    margin: 0 auto;
-    line-height: 50px;
+    line-height: 25px;
 }
 
 
@@ -416,21 +413,22 @@ p {
 
 .counter-box {
     display: block;
-    background: #341948;
+    background: rgba(0, 0, 0, 0.55);
     padding: 40px 20px 37px;
     text-align: center;
     border-radius: 20px;
 }
 
 .counter-box:hover {
-    background-color: #0E050F;
+    background-color: rgba(0, 0, 0, 0.99);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.43);
     transition: all 0.8s;
 }
 
 .counter-box p {
     margin: 5px 0 0;
     padding: 0;
-    color: #9388A2;
+    color: #dcd8e2;
     font-size: 18px;
     font-weight: 500
 }
@@ -438,14 +436,14 @@ p {
 .counter-box i {
     font-size: 60px;
     margin: 0 0 15px;
-    color: #d2d2d2
+    color: #dcd8e2
 }
 
 .counter {
     display: block;
     font-size: 32px;
     font-weight: 700;
-    color: #9388A2;
+    color: #dcd8e2;
     line-height: 28px
 }
 
@@ -468,7 +466,7 @@ p {
 
 .tab {
     overflow: hidden;
-    background-color: #341948;
+    background-color: #000;
     width: 90%;
     margin: 0 auto;
     border-radius: 15px 15px 0px 0px;
@@ -479,7 +477,7 @@ p {
 
 .tab button {
     background-color: inherit;
-    color: #9388A2;
+    color: #dcd8e2;
     float: left;
     border: none;
     outline: none;
@@ -510,7 +508,7 @@ p {
 
 .tabcontent {
     display: none;
-    background-image: linear-gradient(250deg, #0E050F, #341948);
+    background-color: #09070cf1;
     padding: 6px 12px;
     border-top: none;
     width: 90%;
@@ -601,7 +599,7 @@ figure img {
 .payment .col-lg-3:hover {
     transition: all 1s;
     box-shadow: 0 0 10px #6a6a6b;
-    background-color: rgba(255, 255, 255, 0.43);
+    background: rgba(0, 0, 0, 0.55);
 }
 
 
@@ -895,7 +893,7 @@ figure img {
 ._cform {
     width: 60%;
     margin: 0 auto;
-    background-image: linear-gradient(250deg, #341948, #0E050F);
+    background: rgba(0, 0, 0, 0.91);
     padding: 15px;
     color: #c8c0d3;
     border-radius: 10px;
@@ -909,7 +907,7 @@ figure img {
 
 form,
 .bdr {
-    border: 4px double #9388A2;
+    border: 4px double #dcd8e2;
     padding: 35px;
     border-radius: 10px;
     font-weight: bold;
@@ -919,9 +917,6 @@ form input {
     border: none !important;
     background-color: transparent !important;
     color: white !important;
-}
-
-form input:focus {
     box-shadow: 0px 0px 1px 1px white !important;
 }
 
@@ -943,8 +938,8 @@ form textarea:focus {
 .locate {
     width: 90%;
     margin: 0 auto;
-    background-image: linear-gradient(50deg, #341948, #0E050F);
-    color: #9388A2;
+    background: rgba(0, 0, 0, 0.91);
+    color: #dbd2e7;
     padding: 15px;
     border-radius: 25px;
 }
@@ -967,7 +962,7 @@ form textarea:focus {
 
 footer {
     width: 100%;
-    background-color: #0E050F;
+    background: #000;
     color: #c8c0d3;
 }
 
