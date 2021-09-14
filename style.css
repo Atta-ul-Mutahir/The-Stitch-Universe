@@ -592,11 +592,11 @@ figure img {
     margin: 0 auto;
 }
 
-.payment .col-lg-3 {
+.payment .col-lg {
     border-radius: 20px;
 }
 
-.payment .col-lg-3:hover {
+.payment .col-lg:hover {
     transition: all 1s;
     box-shadow: 0 0 10px #6a6a6b;
     background: rgba(0, 0, 0, 0.55);
