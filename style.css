@@ -935,9 +935,15 @@ form textarea:focus {
 
 /* location */
 
-.locate {
+
+/* 
+.location {
     width: 90%;
     margin: 0 auto;
+}
+
+.locate {
+    width: 100%;
     background: rgba(0, 0, 0, 0.91);
     color: #dbd2e7;
     padding: 15px;
@@ -953,6 +959,7 @@ form textarea:focus {
 .locate b {
     color: white;
 }
+ */
 
 
 /* locaion end */
